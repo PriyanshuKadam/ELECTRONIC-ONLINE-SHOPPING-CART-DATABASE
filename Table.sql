@@ -64,7 +64,7 @@ CREATE TABLE Brand
 CREATE TABLE Product
     ( pid INT NOT NULL
     ,sid INT NOT NULL
-    ,brand VARCHAR(50)
+    ,brand VARCHAR(20)
     ,name VARCHAR(100)
     ,type VARCHAR(50)
     ,modelNumber VARCHAR(50)
